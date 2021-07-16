@@ -56,7 +56,7 @@ public class Cake {
     public void update(float delta) {
         time += delta;
         if (time > TIMER) {
-            time=0;
+            time = 0;
             frame++;
             if (frame > 3) {
                 frame = 0;

@@ -64,7 +64,6 @@ public class Menu implements ApplicationListener {
 
     private void update() {
         float delta = Gdx.graphics.getDeltaTime();
-
         balloons.update(delta);
         cake.update(delta);
     }

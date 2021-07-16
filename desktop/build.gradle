@@ -1,5 +1,5 @@
 sourceCompatibility = 1.7
-sourceSets.main.java.srcDirs = [ "src/" ]
+sourceSets.main.java.srcDirs = ["src/"]
 sourceSets.main.resources.srcDirs = ["../android/assets"]
 
 project.ext.mainClassName = "ru.bzbzz.birthdayadventure.desktop.DesktopLauncher"
