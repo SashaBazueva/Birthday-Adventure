@@ -1,4 +1,4 @@
-package ru.bzbzz.birthdayadventure.menu.objects.balloons;
+package ru.bzbzz.birthdayadventure.menu.objects;
 
 import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import static ru.bzbzz.birthdayadventure.menu.Menu.WORLD_WIDTH;
 
 public class Cake {
-    private static final float SCALE = 0.05f;
+    private static final float SCALE = 0.04f;
     private static final float TIMER = 0.3f;
 
     private ArrayList<Sprite> cakeUp;
@@ -65,8 +65,8 @@ public class Cake {
     }
 
     public void draw(SpriteBatch batch) {
-        batch.draw(down, WORLD_WIDTH / 2 - down.getWidth() / 2 * SCALE, 0.3f, down.getWidth() * SCALE, down.getHeight() * SCALE);
-        batch.draw(cakeUp.get(frame), WORLD_WIDTH / 2 - down.getWidth() / 2 * SCALE + 0.55f, 2.1f, cakeUp.get(frame).getWidth() * SCALE, cakeUp.get(frame).getHeight() * SCALE);
+        batch.draw(down, WORLD_WIDTH / 2 - down.getWidth() / 2 * SCALE, 1f, down.getWidth() * SCALE, down.getHeight() * SCALE);
+        batch.draw(cakeUp.get(frame), WORLD_WIDTH / 2 - down.getWidth() / 2 * SCALE + down.getWidth() / 5.5f * SCALE,  0.5f + down.getHeight() / 4 * SCALE * 3.7f, cakeUp.get(frame).getWidth() * SCALE, cakeUp.get(frame).getHeight() * SCALE);
     }
 
     public void dispose() {

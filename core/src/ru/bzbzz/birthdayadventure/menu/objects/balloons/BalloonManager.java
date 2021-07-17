@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 public class BalloonManager {
     private static final float MOTION = 0.2f;
-    private static final float TIMER = 1.5f;
+    private static final float TIMER = 1.3f;
 
 
     private Balloon blue;
