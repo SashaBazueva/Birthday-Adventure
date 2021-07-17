@@ -66,7 +66,7 @@ public class Cake {
 
     public void draw(SpriteBatch batch) {
         batch.draw(down, WORLD_WIDTH / 2 - down.getWidth() / 2 * SCALE, 1f, down.getWidth() * SCALE, down.getHeight() * SCALE);
-        batch.draw(cakeUp.get(frame), WORLD_WIDTH / 2 - down.getWidth() / 2 * SCALE + down.getWidth() / 5.5f * SCALE,  0.5f + down.getHeight() / 4 * SCALE * 3.7f, cakeUp.get(frame).getWidth() * SCALE, cakeUp.get(frame).getHeight() * SCALE);
+        batch.draw(cakeUp.get(frame), WORLD_WIDTH / 2 - down.getWidth() / 2 * SCALE + down.getWidth() / 5.5f * SCALE, 0.5f + down.getHeight() / 4 * SCALE * 3.7f, cakeUp.get(frame).getWidth() * SCALE, cakeUp.get(frame).getHeight() * SCALE);
     }
 
     public void dispose() {

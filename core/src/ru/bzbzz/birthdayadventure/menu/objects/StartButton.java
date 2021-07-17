@@ -77,7 +77,7 @@ public class StartButton {
             isPressed = false;
             return true;
         }
-        if (!bound.contains(scX, scY)){
+        if (!bound.contains(scX, scY)) {
             frame = 0;
         }
         return false;

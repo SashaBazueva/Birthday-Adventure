@@ -1,13 +1,11 @@
 package ru.bzbzz.birthdayadventure.menu;
 
 import com.badlogic.gdx.ApplicationListener;
-import com.badlogic.gdx.Audio;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.InputAdapter;
 import com.badlogic.gdx.audio.Music;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.Texture;
-import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.utils.viewport.FitViewport;
@@ -86,7 +84,7 @@ public class Menu extends InputAdapter implements ApplicationListener {
         batch.draw(background, 0, 0, WORLD_WIDTH, WORLD_HEIGHT);
         balloons.draw(batch);
         cake.draw(batch);
-        batch.draw(text,  WORLD_WIDTH/2 - text.getWidth()/2*0.025f, WORLD_HEIGHT/10*6.3f, text.getWidth()*0.025f, text.getHeight()*0.025f);
+        batch.draw(text, WORLD_WIDTH / 2 - text.getWidth() / 2 * 0.025f, WORLD_HEIGHT / 10 * 6.3f, text.getWidth() * 0.025f, text.getHeight() * 0.025f);
         start.draw(batch);
     }
 
